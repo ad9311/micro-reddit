@@ -23,8 +23,16 @@ Before starting the application you will need to run a few commands:</br>
 ```
 bundle install
 npm install
+```
+
+After this it is required to create a new database and migrate it:
+
+```
+rails db:create
 rails db:migrate
 ```
+
+After this the database should correctly set up.
 
 Follow these steps in order to simulate a post with comments.
 
